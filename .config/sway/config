@@ -76,24 +76,24 @@ workspace 2 output DP-5
 
 # Example configuration:
 
-# Mac Asahi
-input "1452:641:Apple_Internal_Keyboard_/_Trackpad" {
-    dwt enabled                 #Disable while typing
-    tap enabled                 #Tap registers as a click
-    accel_profile flat      #adaptive/flat cursor acceleration
-    pointer_accel 0             #From -1 to 1: Speed of cursor
-    natural_scroll enabled      #Direction of Scroll
-    scroll_factor 0.4           #Speed of Scrolling gets multiplied by this factor
-    scroll_method two_finger    #none|two_finger|edge|on_button_down
-    middle_emulation enabled    #Enables middle click
-    tap_button_map lmr          #1Finger > Left Click , 2Finger > Right Click, 3Fingers > MiddleClick
-}
-
-input "1452:641:Apple_Internal_Keyboard_/_Trackpad" {
-    repeat_rate 30
-    repeat_delay 350
-    xkb_options ctrl:nocaps
-}
+# # Mac Asahi
+# input "1452:641:Apple_Internal_Keyboard_/_Trackpad" {
+#     dwt enabled                 #Disable while typing
+#     tap enabled                 #Tap registers as a click
+#     accel_profile flat      #adaptive/flat cursor acceleration
+#     pointer_accel 0             #From -1 to 1: Speed of cursor
+#     natural_scroll enabled      #Direction of Scroll
+#     scroll_factor 0.4           #Speed of Scrolling gets multiplied by this factor
+#     scroll_method two_finger    #none|two_finger|edge|on_button_down
+#     middle_emulation enabled    #Enables middle click
+#     tap_button_map lmr          #1Finger > Left Click , 2Finger > Right Click, 3Fingers > MiddleClick
+# }
+#
+# input "1452:641:Apple_Internal_Keyboard_/_Trackpad" {
+#     repeat_rate 30
+#     repeat_delay 350
+#     xkb_options ctrl:nocaps
+# }
 
 input "1133:16511:Logitech_G502" {
     accel_profile "flat" 
